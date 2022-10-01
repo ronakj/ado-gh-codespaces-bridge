@@ -1,0 +1,10 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "remoteEnv": {
+        "adoOrg": "yourAdoOrg",
+        "adoProject": "yourAdoProject",
+        "adoRepo": "yourAdoRepo",
+        "sourceLocation": "/workspaces/yourAdoRepo"
+    },
+    "postCreateCommand": "/bin/bash ./.devcontainer/postCreate.sh"
+}
